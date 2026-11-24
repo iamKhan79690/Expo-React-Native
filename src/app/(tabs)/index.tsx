@@ -55,6 +55,10 @@ export default function Index() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.imageContainer}>
+      <View>
+          <ImageViewer imgSource={PlaceholderImage} selectedImage={selectedImage} />
+          {pickedEmoji && <EmojiSticker imageSize={40} stickerSource={pickedEmoji} />}
+        </View>
       <ImageViewer imgSource={PlaceholderImage} selectedImage={selectedImage} />
       {pickedEmoji && <EmojiSticker imageSize={40} stickerSource={pickedEmoji} />}
         <Image source={PlaceholderImage} style={styles.image} />
