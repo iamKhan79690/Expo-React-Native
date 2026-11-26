@@ -11,6 +11,12 @@
         "APP_VARIANT": "development"
       }
     },
+    "android": {
+      "image": "latest"
+    },
+    "ios": {
+      "image": "latest"
+    },
     "preview": {
       "distribution": "internal",
       "env": {
