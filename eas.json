@@ -8,15 +8,16 @@
       "developmentClient": true,
       "distribution": "internal",
       "env": {
-        "APP_VARIANT": "development"
+        "APP_VARIANT": "development",
+        "android": {
+          "image": "latest"
+        },
+        "ios": {
+          "image": "latest"
+        }
       }
     },
-    "android": {
-      "image": "latest"
-    },
-    "ios": {
-      "image": "latest"
-    },
+   
     "preview": {
       "distribution": "internal",
       "env": {
